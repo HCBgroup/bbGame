@@ -24,4 +24,4 @@ motion_mode = 1
 position = Vector2(97, 95)
 scale = Vector2(0.08717435, 0.09199998)
 sprite_frames = SubResource("SpriteFrames_f63wh")
-frame_progress = 0.72204196
+frame_progress = 0.19732112
