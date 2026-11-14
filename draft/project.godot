@@ -1,0 +1,26 @@
+; Engine configuration file.
+; Draft prototype only. Not the Haven submission.
+
+config_version=5
+
+[application]
+
+config/name="Bounce Back Draft"
+config/description="HC — Hack Club Haven. Draft prototype of Bounce Back. Not the jam submission."
+run/main_scene="res://scenes/game.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=270
+window/size/window_width_override=960
+window/size/window_height_override=540
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.08, 0.08, 0.1, 1)
