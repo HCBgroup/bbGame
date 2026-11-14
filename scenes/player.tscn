@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://be8qbmt0fe144"]
+
+[ext_resource type="Texture2D" uid="uid://dvjsbtxw500oq" path="res://assets/boy/Idle/frame-2.png" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://dmn3ou52kjo1t" path="res://assets/boy/Idle/frame-1.png" id="2_qhqgy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f63wh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_g2els")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_qhqgy")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=414475139]
+motion_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1057765139]
+position = Vector2(97, 95)
+scale = Vector2(0.08717435, 0.09199998)
+sprite_frames = SubResource("SpriteFrames_f63wh")
+frame_progress = 0.72204196
